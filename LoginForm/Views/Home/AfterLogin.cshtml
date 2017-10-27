@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+}
+
+<h2>Login successfull</h2>
+@if(Session["LogedUserFullname"] != null)
+{
+    <text>
+        Welcome @Session["LogedUserFullname"].ToString()
+    </text>
+    
+}
+<br />
+<tr>
+    <td></td>
+    <td>
+        <input type="submit" value="Logout" onclick="location.href='index';" />
+    </td>
+    <td></td>
+</tr>
+    

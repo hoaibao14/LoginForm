@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+
+</hgroup>
+
+<article>
+    <p>
+        1994 - Liên doanh với công ty TNHH bia Huế (thương hiệu Huda ở miền Trung Việt Nam
+    </p>
+
+    <p>
+        2008 - Trở thành nhà đầu tư chiến lược của công ty cổ phần Habeco
+    </p>
+
+    <p>
+        2009 - Mua lại cổ phần thiểu số của nhà máy bia Hạ Long, thương hiệu Hạ Long
+    </p>
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+        Carlsberg Việt Nam 
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        <li>@Html.ActionLink("Login", ":ogin", "Home")</li>
+    </ul>
+</aside>
